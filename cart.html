@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Shopsy</title>
+    <title>Cart | Flash Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,12 +29,15 @@
                     <a href="/" class="link cursor"><span class="material-symbols-outlined">favorite</span></a>
                 </li>
                 <li class="list-item-inline">
-                    <a href="./cart.html" class="link cursor"><span class="material-symbols-outlined">shopping_cart</span></a>
+                    <a href="/" class="link cursor"><span class="material-symbols-outlined">shopping_cart</span></a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="products-page d-flex wrap gap" id="products"></div>
-    <script type="module" src="./index.js"></script>
+    <main class="main">
+        <h2 class="heading-2">Your Cart</h2>
+        <div class="products-page d-flex wrap gap" id="cart"></div>
+    </main>
+    <script type="module" src="./cart.js"></script>
 </body>
 </html>
