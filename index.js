@@ -1,5 +1,5 @@
 import { products } from "./db/products.js";
-import { createProductCard } from "./createProductCart.js";
+import { createProductCard } from "./createProductCard.js";
 import { findProductInCart } from "./utils/findProductsInCart.js";
 
 const productContainer = document.getElementById("products");
